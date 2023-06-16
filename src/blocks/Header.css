@@ -1,0 +1,86 @@
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  0 20px;
+}
+
+.header__logo {
+  width: 54px;
+  height: 54px;
+}
+
+.header__navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 25px;
+}
+
+.header__navbar-home {
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.header__navbar-link_home {
+  align-self: center;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.header__navbar-button {
+  width: 114px;
+  height: 35px;
+  background: #41917A;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.header__navbar-app {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.header__navbar-link_app {
+  text-decoration: none;
+  padding: 0;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    max-width: 950px;
+    margin: 0 15px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    max-width: 500px;
+  }
+
+  .header__logo {
+    width: 44px;
+    height: 44px;
+    padding-left: 100px;
+  }
+}
