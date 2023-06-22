@@ -9,11 +9,7 @@ const Cards = (props) => {
       <section className="cards">
         <p className="cards__bg"></p>
         <div className="cards__container">
-        {/*{console.log("ok")}*/}
         {pokemonData.map((pokemon) => {
-          // <Card props={pokemon}>
-          // </Card>
-          // console.log(pokemon)
           return <Card key={pokemon.id} name={pokemon.name} types={pokemon.types} image={pokemon.image}/>
         })}
         </div>

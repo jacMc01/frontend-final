@@ -94,7 +94,7 @@ margin: 7px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 570px) {
   .search {
     max-width: 400px;
     height: 15vh;
@@ -107,7 +107,7 @@ margin: 7px;
   }
 
   .search__input {
-    width: 408px;
+    width: 380px;
     height: 28px;
   }
 

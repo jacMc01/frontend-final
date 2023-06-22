@@ -56,7 +56,7 @@
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 570px){
   .information {
     width: 400px;
     height: 25vh;

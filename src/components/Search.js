@@ -5,13 +5,6 @@ const Search = (props) => {
 
   const [searchResults, setSearchResults] = useState([]);
 
-
-  function filterPokemonByType(pokemonArray, type) {
-    return pokemonArray.filter((pokemon) =>
-      pokemon.types.includes(type.toLowerCase())
-    );
-  }
-
   function searchPokemonByName(pokemonArray, searchTerm) {
     const searchResults = pokemonArray.filter((pokemon) =>
       pokemon.name.toLowerCase().includes(searchTerm.toLowerCase())
